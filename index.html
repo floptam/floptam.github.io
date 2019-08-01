@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Ubuntu+Condensed|Ubuntu:300,300i,400,400i,500,500i,700,700i&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title></title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<!--sprite-->
+<svg style="display: none;">
+        <symbol id="circle" viewBox="0 0 510 510" >
+                <g >
+                        <path d="M255,0C114.75,0,0,114.75,0,255s114.75,255,255,255s255-114.75,255-255S395.25,0,255,0z"/>
+                </g>
+        </symbol>
+        <symbol id="square"  viewBox="0 0 438.536 438.536" >
+                <g>
+                        <path d="M433.113,5.424C429.496,1.807,425.215,0,420.267,0H18.276C13.324,0,9.041,1.807,5.425,5.424
+                            C1.808,9.04,0.001,13.322,0.001,18.271v401.991c0,4.948,1.807,9.233,5.424,12.847c3.619,3.614,7.902,5.428,12.851,5.428h401.991
+                            c4.948,0,9.229-1.813,12.847-5.428c3.614-3.613,5.421-7.898,5.421-12.847V18.271C438.534,13.319,436.73,9.04,433.113,5.424z"/>
+                    </g>
+        </symbol>
+        <symbol id="magnifier" viewBox="0 0 310.42 310.42" >
+                <g>
+                  <path d="M273.587,214.965c49.11-49.111,49.109-129.021,0-178.132c-49.111-49.111-129.02-49.111-178.13,0
+                            C53.793,78.497,47.483,140.462,76.51,188.85c0,0,2.085,3.498-0.731,6.312c-16.065,16.064-64.263,64.263-64.263,64.263
+                            c-12.791,12.79-15.836,30.675-4.493,42.02l1.953,1.951c11.343,11.345,29.229,8.301,42.019-4.49c0,0,48.096-48.097,64.128-64.128
+                            c2.951-2.951,6.448-0.866,6.448-0.866C169.958,262.938,231.923,256.629,273.587,214.965z M118.711,191.71
+                            c-36.288-36.288-36.287-95.332,0.001-131.62c36.288-36.287,95.332-36.288,131.619,0c36.288,36.287,36.288,95.332,0,131.62
+                            C214.043,227.996,155,227.996,118.711,191.71z"/>
+                <g>
+        </symbol>
+        
+ </svg>
+<body>
+    <!--HEADER-->
+<header class="header">
+    <div class="container">
+        <div class="header__inner">
+                <div class="menu__icon">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                  </div>
+            <div class="header__logo">
+                    <svg class="logo__icon">
+                            <use xlink:href="#circle"></use>
+                    </svg>
+                    <svg class="logo__icon">
+                            <use xlink:href="#square"></use>
+                    </svg>
+                   
+                    <a class="logo__text" href="#">Your Logo</a>
+            </div>
+            <div class="header__menu">
+                 
+            <div class="menu__inner">
+                <div class="menu__item"><div id="square__logo"></div><a class="menu__link" href="#">Home</a></div>
+                <div class="menu__item"><div id="square__logo"></div><a class="menu__link" href="#">Portfolio</a></div>
+                <div class="menu__item"><div id="square__logo"></div><a class="menu__link" href="#">About</a></div>
+                <div class="menu__item"><div id="square__logo"></div><a class="menu__link" href="#">Contact</a></div>
+                <div class="menu__item"><div id="square__logo"></div><a class="menu__link" href="#">Blog</a></div>
+            </div>
+              
+
+                <a class="btn" href="#">Blog</a>
+            </div>
+            <div class="header__search">
+                <div class="search__text"><a class="search__link" href="#">Search</a></div>
+                        <svg class="logo__search">
+                                <use xlink:href="#magnifier"></use>
+                        </svg>
+
+            </div>
+         </div>
+    </div>
+</header>
+
+<!--slaider-->
+
+<div class="slaider__inner">
+     <div class="slaider__slaider" id="reviewsSlider">
+          <div class="slick-item"> 
+             <div class="slaider">
+                 <div class="container">
+                    
+                     <div class="slaider__inner">
+                             <div class="slaider__title">Good Design Is Good Business</div>
+                             <div class="slaider__subtitle">
+                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ultricies sagittis magnaa commodo. </p>
+                                     <p>Ut eget eros mauris, ut cursus urna. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices.</p>
+                             </div>
+                             <a class="slaider__btn" href="#">LEARN MORE</a>
+                 </div>
+                   </div>
+                
+                 </div> <!--slaider-->
+             </div>  <!--slick-item-->
+             <div class="slick-item"> 
+             <div class="slaider slaider-2">
+                        <div class="container">
+                           
+                            <div class="slaider__inner">
+                                    <div class="slaider__title">Super Site For Super Business</div>
+                                    <div class="slaider__subtitle">
+                                            
+                                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                                            <p>Asperiores et repellat modi rem dicta doloribus odio exercitationem distinctio necessitatibus quasi, placeat cumque iste eum minus obcaecati quia itaque dolorum. Hic?</p>
+                                    </div>
+                                    <a class="slaider__btn" href="#">LEARN MORE</a>
+                        </div>
+                          </div>
+                        
+                    </div>  <!--slaider-->
+          </div><!--slick-item-->
+     </div><!--sreviewsSlider-->
+</div> <!--slaider__inner-->
+<!--SERVICES-->
+    <div class="services">
+                <a class="services__btn" href="#">OUR SERVICES</a>
+            <div class="container">
+                    <div class="services__inner">
+                            <div class="services__group">
+                                    <div class="services__item">
+                                            <div class="services__logo"><img src="img/services-1.png" alt=""></div>
+                                            <a class="services__title" href="#">Web Design</a>
+                                            <p>Lorem ipsum dolor sit amet, 
+                                                        consectetur adipiscing elit. 
+                                                        Mauris nec ipsum at lacus 
+                                                        commodo suscipit. <a class="span__details" href="#">Details...</a></p>
+                                    </div>
+                                    <div class="services__item">
+                                                <div class="services__logo"><img src="img/services-2.png" alt=""></div>
+                                                <a class="services__title" href="#">Search Optimization</a>
+                                                <p>Lorem ipsum dolor sit amet, 
+                                                            consectetur adipiscing elit. 
+                                                            Mauris nec ipsum at lacus 
+                                                            commodo suscipit. <a class="span__details" href="#">Details...</a></p>
+                                    </div>
+                            </div>
+                            <div class="services__group">
+                                        <div class="services__item">
+                                                <div class="services__logo"><img src="img/services-3.png" alt=""></div>
+                                                <a class="services__title" href="#">Online Shop</a>
+                                                <p>Lorem ipsum dolor sit amet, 
+                                                            consectetur adipiscing elit. 
+                                                            Mauris nec ipsum at lacus 
+                                                            commodo suscipit. <a class="span__details" href="#">Details...</a></p>
+                                        </div>
+                                        <div class="services__item">
+                                                    <div class="services__logo"><img src="img/services-4.png" alt=""></div>
+                                                    <a class="services__title" href="#">Social Media</a>
+                                                    <p>Lorem ipsum dolor sit amet, 
+                                                                consectetur adipiscing elit. 
+                                                                Mauris nec ipsum at lacus 
+                                                                commodo suscipit. <a class="span__details" href="#">Details...</a></p>
+                                        </div>
+                            </div>
+                    </div>
+            </div>
+    </div>
+<!--Portfolio-->
+    <div class="portfolio">
+            <div class="container">
+                    <div class="portfolio__inner">
+                            <div class="portfolio__text">
+                                        <a class="portfolio__title" href="#">Our Portfolio Awesome</a> 
+                                        <a class="portfolio__btn" href="#">More Works</a>
+                            </div>
+                            <div class="portfolio__works">
+                                    <div class="works__item">
+                                            <div class="works__photo">
+                                                    <img class="works__details" src="img/details.png" alt="">
+                                                    <img class="works__camera" src="img/camera.png" alt="">
+                                        </div>
+                                            <div class="works__text">
+                                                    <a class="works__title" href="#">Lorem Ipsum Dolar Sit Amet</a>
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                                                Mauris nec ipsum at lacus commodo suscipit.</p>
+                                            </div>
+                                    </div>
+                                    <div class="works__item">
+                                                <div class="works__photo">
+                                                        <img class="works__details" src="img/details.png" alt="">
+                                                        <img class="works__camera" src="img/camera.png" alt="">
+                                                </div>
+                                                <div class="works__text">
+                                                        <a class="works__title" href="#">Lorem Ipsum Dolar Sit Amet</a>
+                                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                                                    Mauris nec ipsum at lacus commodo suscipit.</p>
+                                                </div>
+                                    </div>
+                                    <div class="works__item" id="works__item__last">
+                                                <div class="works__photo">
+                                                         <img class="works__details" src="img/details.png" alt="">
+                                                        <img class="works__camera" src="img/camera.png" alt="">
+                                                </div>
+                                                <div class="works__text">
+                                                        <a class="works__title" href="#">Lorem Ipsum Dolar Sit Amet</a>
+                                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                                                    Mauris nec ipsum at lacus commodo suscipit.</p>
+                                                </div>
+                                    </div>
+                            </div>
+                    </div>
+                
+            </div>
+    </div>
+
+<!--Reviews-->
+    <div class="reviews">
+            <div class="container">
+                    <div class="reviews__inner">
+                            <div class="reviews__offer">
+                                    <a class="offer__title" href="#">WHAT WE OFFER</a>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ultricies sagittis magnaa commodo. Ut eget eros mauris, ut cursus urna. </p>
+                                    <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices.</p>
+                            </div>
+                            <div class="reviews__container">
+                                    <div class="reviews__item" id="odd">
+                                            <a class="reviews__title" href="#">Web Design</a>
+                                            <p>Lorem ipsum dolor sit amet, consect 
+                                                        etur adipiscing elit. Ut ultricies sagit
+                                                        tism agnaa commodo. Ut eget eros mauris, ut cursus urna vestibuluman ipsum primis in faucibus orci luctuset.</p>
+                                                        <div class="btn__container__reviews"><a class="reviews__btn" href="#">Details</a></div> 
+                                    </div>
+                                    <div class="reviews__item">
+                                                <a class="reviews__title" href="#">Search Optimization</a>
+                                                <p>Lorem ipsum dolor sit amet, consect 
+                                                            etur adipiscing elit. Ut ultricies sagit
+                                                            tism agnaa commodo. Ut eget eros mauris, ut cursus urna vestibuluman ipsum primis in faucibus orci luctuset.</p>
+                                                            <div class="btn__container__reviews"><a class="reviews__btn" href="#">Details</a></div> 
+                                     </div>
+                                     <div class="reviews__item" id="odd">
+                                                <a class="reviews__title" href="#">Online Shop</a>
+                                                <p>Lorem ipsum dolor sit amet, consect 
+                                                            etur adipiscing elit. Ut ultricies sagit
+                                                            tism agnaa commodo. Ut eget eros mauris, ut cursus urna vestibuluman ipsum primis in faucibus orci luctuset.</p>
+                                                            <div class="btn__container__reviews"><a class="reviews__btn" href="#">Details</a></div> 
+                                     </div>
+                                     <div class="reviews__item" id="reviews__item__last">
+                                                        <a class="reviews__title" href="#">Social Media</a>
+                                                        <p>Lorem ipsum dolor sit amet, consect 
+                                                                    etur adipiscing elit. Ut ultricies sagit
+                                                                    tism agnaa commodo. Ut eget eros mauris, ut cursus urna vestibuluman ipsum primis in faucibus orci luctuset.</p>
+                                                        <div class="btn__container__reviews"><a class="reviews__btn" href="#">Details</a></div> 
+                                     </div>
+                            </div>
+                            <div class="testimonials">
+                                    <div class="textimonials__text">
+                                            <div class="textimonials__title">Testimonials</div>
+                                            <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit mauris necip 
+                                                        at lacus commodo suscipit praesent sollicitudin enim vel mirhon”</p>
+                                    </div>
+                                    <div class="testimonials__people">
+                                            
+                                                    <div class="people__text">Jon Doe / CEO of LoremIpsum</div>
+                                            
+                                            <div class="people__item">
+                                                       
+                                                        <div class="people__icon__container"  id="text__hidden" ><div class="people__icon"><img src="img/man.svg" alt=""></div><div id="people__icon__square"></div></div>
+                                                        <div class="people__icon__container"  id="text__hidden"><div class="people__icon"><img src="img/man.svg" alt=""></div><div id="people__icon__square"></div></div>
+                                                        <div class="people__icon__container"  id="text__hidden"><div class="people__icon"><img src="img/man.svg" alt=""></div><div id="people__icon__square"></div></div>
+                                            </div>
+                                    </div>
+                            </div>
+                    </div>
+            </div>
+    </div>
+<!--Footer-->
+<footer class="footer">
+    <div class="container">
+            <div class="footer__inner">
+                    <div class="footer__container">
+                         <div class="footer__feeeds">
+                              <a class="footer__title" href="#">Twitter feeds</a>
+                              <div class="footer__text">
+                                      <p>Check out this great theme item</p>
+                                      <p><a href="№" class="footer__link">http://tadjalskfj.com</a></p>
+                                      <p>2 weeks ago</p>
+                              </div>
+                              <div class="footer__text">
+                                        <p>Check out this great theme item</p>
+                                        <p><a href="№" class="footer__link">http://tadjalskfj.com</a></p>
+                                        <p>2 weeks ago</p>
+                              </div>
+                              <div class="footer__text">
+                                        <p>Check out this great theme item</p>
+                                        <p><a href="№" class="footer__link">http://tadjalskfj.com</a></p>
+                                        <p>2 weeks ago</p>
+                              </div>
+                         </div>
+                      </div>
+                      <div class="footer__container">
+                          <div class="footer__news">
+                                        <a class="footer__title" href="#">NEWSLETTER</a>
+                                        <div class="footer__text">
+                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ultricies sagittis magna a comm.Ut eget eros mauris, ut cursus urna.</p>   
+                                        </div> 
+                                        <div class="footer__text">
+                                                <div class="email__title">Your Email Address</div>
+                                                <form action="#">
+                                                     <input id="email__input" maxlength="40" >
+                                                </form>
+                                               <div class="footer__btn"> <a class="email__btn" href="#">Sign Up</a></div>
+                                        </div>
+                          </div>
+                       </div>   
+                       <div class="footer__container">
+                                <div class="footer__project">
+                                     <a class="footer__title" href="#">recent projects</a>
+                                     <div class="footer__text">
+                                             <div class="footer__white__square"><img src="img/onima1.jpg" alt=""></div>
+                                             <div class="footer__text__container">
+                                             <p>Check out this great theme item</p>
+                                             <p><a href="№" class="footer__link">http://tadjalskfj.com</a></p>
+                                             <p>2 weeks ago</p>
+                                             </div>
+                                     </div>
+                                     <div class="footer__text">
+                                               <div class="footer__white__square"><img src="img/onima2.jpg" alt=""></div>
+                                               <div class="footer__text__container">
+                                               <p>Check out this great theme item</p>
+                                               <p><a href="№" class="footer__link">http://tadjalskfj.com</a></p>
+                                               <p>2 weeks ago</p>
+                                               </div>
+                                     </div>
+                                     <div class="footer__text">
+                                               <div class="footer__white__square"><img src="img/onima3.jpg" alt=""></div>
+                                               <div class="footer__text__container">
+                                               <p>Check out this great theme item</p>
+                                               <p><a href="№" class="footer__link">http://tadjalskfj.com</a></p>
+                                               <p>2 weeks ago</p>
+                                               </div>
+                                     </div>
+                                </div>
+                         </div> 
+                         <div class="footer__container">
+                               <div class="footer__contact">
+                                    <a class="footer__title" href="#">Contact</a>
+                                    <div class="contact__text">
+                                            <div class="contact__icon phone-1"><img src="img/contact-phone.png" alt=""></div>
+                                            <div class="footer__text__container">
+                                            <p>1 - 000 - 000-0000</p>
+                                            <p>1 - 000 - 000-0000</p>
+                                            </div>
+                                    </div>
+                                    <div class="contact__text">
+                                              <div class="contact__icon phone-2"><img src="img/contact-phone-2.png" alt=""></div>
+                                              <div class="footer__text__container">
+                                              <p>1 - 000 - 000-0000</p>
+                                              <p>1 - 000 - 000-0000</p>
+                                              </div>
+                                    </div>
+                                    <div class="contact__text">
+                                              <div class="contact__icon email"><img src="img/contact-email.png" alt=""></div>
+                                              <div class="footer__text__container">
+                                              <p>abcdefg@hijs.dfh</p>
+                                              <p>abcgsdg@hijs.dfh</p>
+                                              </div>
+                                    </div>
+                               </div>
+                        </div> 
+                    </div>
+            </div>
+    </div>
+</footer>
+</body>  
+<script  src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>  
+<script src="script.js"></script>
+</html>
